@@ -2,37 +2,43 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    background-color: #FEFCF3;
 }
 
 h1 {
-    margin-top: 0;
+    font-size: 562.5%;
+    margin:50px auto 0px auto;
     font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+.top-text {
+    color: #dcccd4;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 .top-container {
-    background-image: linear-gradient(#863A6F, #975C8D, #D989B5, #FFADBC);
+    background-image: linear-gradient(#2e58ff, #cceaff);
     position: relative;
     padding-top: 100px;
+    margin: auto auto 30px auto;
 }
 
 .middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+  
 }
 
 .bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+    
 }
 
 .pro {
@@ -50,3 +56,65 @@ h3 {
     left: 300px;
 
 }
+.a-programmer {
+    font-size: 2.5rem;
+}
+.footer-link {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.coderen {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gym {
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    height: 0px;
+    border-width: 5px;
+    width: 5%;
+ }
+
+ .hr1 {
+    margin-bottom: 100px;
+    margin-top: 50px;
+ }
+
+ .hr2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+ }
+
+ .btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contact-me {
+    margin: 50px;
+  }
